@@ -1,20 +1,18 @@
 # 🔍 InsightRover  
 ### **AI-Powered Research Assistant with Web Search, Retrieval & Summarization**
 
-InsightRover is an **AI-driven automated research system** built with **Streamlit**, **OpenAI**, **SERPAPI**, **SentenceTransformers**, and **SQLite memory** — designed to fetch fresh information from the web, retrieve context using embeddings (RAG), and generate high-quality executive summaries.
+InsightRover is an **AI-driven automated research system** built using **Python**, **OpenAI**, **SERPAPI**, **SentenceTransformers**, and **SQLite memory** — designed to fetch fresh information from the web, retrieve context using embeddings (RAG), and generate high-quality executive summaries.
 
 This project showcases skills in:
 
 ✅ Data Science  
 ✅ NLP  
 ✅ Embeddings  
-✅ Information Retrieval  
+✅ Retrieval-Augmented Generation (RAG)
+✅ Information Extraction  
 ✅ Agentic Workflows  
-✅ Web App Development  
 ✅ LLM Integrations  
 ✅ Reasoning & Automation  
-
-Perfect as a **portfolio project** if you're becoming a **Data Scientist / AI Engineer**.
 
 ---
 
@@ -50,16 +48,6 @@ Stores:
 - Historical search data  
 
 Allows you to track previous results and improves retrieval.
-
----
-
-### 🎨 **5. Beautiful Streamlit UI**
-Modern UI with:
-- Responsive layout  
-- Card-style results  
-- Expandable sections  
-- Dark theme  
-- Smooth interactions  
 
 ---
 
@@ -107,9 +95,9 @@ This project is a great example of:
 
 | Component | Technology |
 |----------|------------|
-| Frontend UI | Streamlit |
 | LLM API | OpenAI GPT-4o-mini |
 | Web Search | SERPAPI |
+| Web Content Extraction | Requests + Custom Parser |
 | Embeddings | SentenceTransformer MiniLM-L6-v2 |
 | Similarity Search | Cosine Similarity |
 | Database | SQLite |
@@ -118,10 +106,3 @@ This project is a great example of:
 | Other | Requests, Regex Moderation |
 
 ---
-
-# 📦 Installation
-
-### **1. Clone Repository**
-```bash
-git clone https://github.com/YOUR_USERNAME/InsightRover.git
-cd InsightRover
