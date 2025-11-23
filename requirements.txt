@@ -1,0 +1,8 @@
+streamlit
+openai>=1.0.0
+requests
+sentence-transformers
+scikit-learn
+numpy
+urllib3
+sqlite3-binary
